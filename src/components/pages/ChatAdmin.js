@@ -8,13 +8,7 @@ import { db } from '../database/Firebase';
 
 const ChatAdmin = props => {
   const chatContext = useContext(ChatContext);
-  const {
-    userChats,
-    addUserChat,
-    removeUserChat,
-    currentChat,
-    setCurrent
-  } = chatContext;
+  const { userChats, addUserChat, removeUserChat } = chatContext;
 
   useEffect(() => {
     const unsub = db.collection('users').onSnapshot(snapshot => {

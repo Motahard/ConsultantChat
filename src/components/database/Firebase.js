@@ -1,6 +1,4 @@
 import firebase from 'firebase';
-import React, { useContext, Fragment } from 'react';
-import ChatContext from '../context/chats/chatContext';
 
 const firebaseApp = firebase.initializeApp({
   apiKey: 'AIzaSyBFCSo1T5TBKwGXfQ-yFAZTYApLZdjOxHw',

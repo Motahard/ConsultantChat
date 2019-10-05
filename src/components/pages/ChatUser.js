@@ -1,15 +1,12 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useEffect, useState } from 'react';
 import uuid from 'uuid';
 import { db } from '../database/Firebase';
-import ChatContext from '../context/chats/chatContext';
 import Auth from './Auth';
 
 const ChatUser = ({ idUser }) => {
   const [chatHistory, setChatHistory] = useState([]);
   const [text, setText] = useState('');
   const [docToDelete, setDocToDelete] = useState('');
-  const chatContext = useContext(ChatContext);
-  const { setCurrent, currentChat } = chatContext;
 
   useEffect(() => {
     const unsub = db
