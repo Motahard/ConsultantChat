@@ -1,33 +1,53 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.p-0 {
+  padding: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.m-0 {
+  margin: 0 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.my-5 {
+  margin: 1rem 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-red {
+  background: rgb(180, 56, 56) !important;
+}
+
+.col {
+  overflow-y: hidden;
+}
+
+.user-msg {
+  height: 90vh;
+  padding: 0 0.5rem;
+  width: 100%;
+  position: relative;
+}
+
+.user-msg > div:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
+.submit-input {
+  width: 100%;
+  height: 100%;
 }

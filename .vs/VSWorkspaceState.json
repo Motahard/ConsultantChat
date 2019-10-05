@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\chats",
+    "\\src\\components\\context",
+    "\\src\\components\\context\\chats",
+    "\\src\\components\\database",
+    "\\src\\components\\layout",
+    "\\src\\components\\pages"
+  ],
+  "SelectedNode": "\\src\\components\\pages",
+  "PreviewInSolutionExplorer": false
+}
